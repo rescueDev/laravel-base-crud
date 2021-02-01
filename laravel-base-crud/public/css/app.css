@@ -1,0 +1,15 @@
+body {
+  background-color: #ff7f50;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: blue;
+}
+
