@@ -1,0 +1,25 @@
+.devices-container {
+    width: 100%;
+    padding: 30px;
+    height: 600px;
+    background-color: purple;
+
+    .single-device {
+        padding: 30px;
+        box-shadow: 2px 2px 1px slategrey;
+
+        h3 {
+            color: white;
+            padding: 10px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+}

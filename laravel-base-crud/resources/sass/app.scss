@@ -1,17 +1,17 @@
 //
 @import "./Profiles/form";
+@import "./Profiles/devices-container";
+@import "./Profiles/create-button";
+@import "./Profiles/header";
+@import "./Profiles/footer";
+@import "./Profiles/home";
 
-body {
-    background-color: #ff7f50;
-    text-align: center;
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
-
-    a {
-        text-decoration: none;
-        color: blue;
-    }
+body {
+    text-align: center;
 }

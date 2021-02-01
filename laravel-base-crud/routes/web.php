@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/', function () {
+    return view('pages.home');
+})->name('home');
 
 //rotta che mostra tutte le periferiche
 Route::get('/devices', 'DeviceController@index')->name('devices');
